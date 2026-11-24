@@ -13,16 +13,3 @@ I build software for machine learning, computer vision, and data-intensive workf
 - [**Inventory Reservation Service**](https://github.com/martaforjaz/inventory-reservation-service) — ASP.NET Core and PostgreSQL API for stock reservations. Tested contention on the last unit and profiled lock waits under load.
 - [**Multiplayer Agent Arena**](https://github.com/martaforjaz/multiplayer-agent-arena) — Two phases of UPC coursework, from a local physics prototype to a FastAPI multiplayer arena, plus a reproducible benchmark for steering policies.
 
-## Watch the demos
-
-**Robotic chess simulation**
-
-[![Frame from the MuJoCo robotic chess simulation](media/robotic-chess.png)](https://martaforjaz.github.io/#robotics-replay)
-
-[Watch the simulation video](https://martaforjaz.github.io/assets/chess-live-simulation.mp4)
-
-**Accessible Archive Search**
-
-[![Williamsburg search result beside the original newspaper scan](https://martaforjaz.github.io/accessible-archive-search/demo-poster.png)](https://martaforjaz.github.io/accessible-archive-search/#demo)
-
-[Watch the captioned walkthrough](https://martaforjaz.github.io/accessible-archive-search/#demo)
