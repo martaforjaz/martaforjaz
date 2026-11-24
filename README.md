@@ -1,14 +1,28 @@
 # Marta Forjaz Pereira
 
-I work on machine learning and data systems for scientific and engineering applications. My projects span computational pathology, reproducible data pipelines, and vision-guided robotics.
+I build software for machine learning, computer vision, and data-intensive workflows. My research at Johns Hopkins focused on computational pathology. I also build search tools and simulation projects with public demos.
 
-[Portfolio](https://martaforjaz.github.io/) · [Résumé](https://martaforjaz.github.io/resume.html) · [LinkedIn](https://www.linkedin.com/in/martaforjazpereira/)
+[Engineering Portfolio](https://martaforjaz.github.io/) · [LinkedIn](https://www.linkedin.com/in/martaforjazpereira/)
 
 ## Selected work
 
-- [Multi-scanner histology](https://github.com/martaforjaz/histology-image-pipeline) — whole-slide image preparation and resolution-aware registration.
-- [NYC taxi warehouse](https://github.com/martaforjaz/nyc-taxi-incremental-warehouse) — incremental DuckDB ingestion, quality validation, and measured BigQuery partition pruning.
-- [NASA engine remaining useful life](https://github.com/martaforjaz/nasa-engine-rul) — sensor-based prediction on held-out C-MAPSS engines.
-- [Vision-verified robotic chess](https://github.com/martaforjaz/ros2-vision-manipulation) — ROS 2, ArUco perception, and pick-and-place simulation with board verification.
+- [**Accessible Archive Search**](https://martaforjaz.github.io/accessible-archive-search/) — Search 2,200 historical newspaper pages and verify matches against the original scan. In a 13-query benchmark, OCR-tolerant search found a reference passage in the top ten for 10 queries, compared with seven for BM25. [Code](https://github.com/martaforjaz/martaforjaz.github.io/tree/main/accessible-archive-search) · [Neural OCR pilot](https://martaforjaz.github.io/accessible-archive-search/ocr/)
+- [**Slide Quality Review**](https://github.com/martaforjaz/slide-quality-review) — Review focus alerts in whole-slide images at native resolution. The folder tool resumes interrupted runs and exports rescan decisions. [Public whole-slide demo](https://martaforjaz.github.io/slide-quality/public-review/)
+- [**Vision-Verified Robotic Chess**](https://github.com/martaforjaz/ros2-vision-manipulation) — A ROS 2 and MuJoCo workcell uses ArUco markers to verify the board after robot moves. [Live simulator](https://martaforjaz.github.io/web/)
+- [**Transaction Risk Integration Service**](https://github.com/martaforjaz/transaction-risk-integration-service) — Java service with Kafka and a PostgreSQL transactional outbox. Tested duplicate delivery and recovery after a consumer restart.
+- [**Inventory Reservation Service**](https://github.com/martaforjaz/inventory-reservation-service) — ASP.NET Core and PostgreSQL API for stock reservations. Tested contention on the last unit and profiled lock waits under load.
+- [**Multiplayer Agent Arena**](https://github.com/martaforjaz/multiplayer-agent-arena) — Two phases of UPC coursework, from a local physics prototype to a FastAPI multiplayer arena, plus a reproducible benchmark for steering policies.
 
-[Metagenomic Binning Benchmark Atlas](https://github.com/martaforjaz/metagenomic-binning-benchmark-atlas) · [Factory Maintenance SQL](https://github.com/martaforjaz/factory-maintenance-sql) · [BLE Sensor Pedometer](https://github.com/martaforjaz/ble-sensor-pedometer)
+## Watch the demos
+
+**Robotic chess simulation**
+
+[![Frame from the MuJoCo robotic chess simulation](media/robotic-chess.png)](https://martaforjaz.github.io/#robotics-replay)
+
+[Watch the simulation video](https://martaforjaz.github.io/assets/chess-live-simulation.mp4)
+
+**Accessible Archive Search**
+
+[![Williamsburg search result beside the original newspaper scan](https://martaforjaz.github.io/accessible-archive-search/demo-poster.png)](https://martaforjaz.github.io/accessible-archive-search/#demo)
+
+[Watch the captioned walkthrough](https://martaforjaz.github.io/accessible-archive-search/#demo)
